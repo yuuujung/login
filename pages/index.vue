@@ -14,6 +14,7 @@ import loginModal from '~/components/loginModal.vue'
 
 export default {
   
+  
   components: { loginModal },
 
 
