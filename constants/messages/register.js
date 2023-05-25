@@ -1,0 +1,63 @@
+export default {
+  /* register/insertInfo */
+  SECTION_LOGIN_INFO: "로그인 정보 입력",
+  SECTION_COMPANY_INFO: "사업자 정보 입력",
+  NECESSARY_FIELDS: "표시가 있는 항목은 필수 입력 항목이에요.",
+  FINISH_REGISTER: "가입 완료",
+  ERROR_ON_API_REQUEST: "데이터 전송 중 오류가 발생했어요.",
+
+  /* register */
+  SKIP_THIS_TUTORIAL_STEP: "다음 단계로 건너뛰기",
+  FINISH_TUTORIAL: "정보입력 완료하기",
+  SKIP_ALL_TUTORIAL: "모든 튜토리얼 건너뛰기",
+
+  /* tutorial */
+  TUTORIAL_TITLE_BRAND: "브랜드 입력",
+  BRAND_REGISTER_COMPLETED: "브랜드 등록을 마쳤어요.",
+  BRAND_EDIT_COMPLETED: "브랜드 수정을 마쳤어요.",
+  TUTORIAL_INFO_MODAL_TITLE: "아직 필수 정보를 입력하지 않았어요!",
+  TUTORIAL_INFO_MODAL_BODY_1: "로딧 서비스 사용을 위해서 몇 가지 정보를 꼭 입력해야 돼요.",
+  TUTORIAL_INFO_MODAL_BODY_2: "번거롭더라도 조금만 참고 입력해 주세요!",
+  TUTORIAL_INFO_MODAL_BUTTON: "지금 입력할게요!",
+  TUTORIAL_FINISH_BUTTON: "로딧 서비스로 이동하기",
+  REDIRECT_TO_LOGIN: "첫 화면으로 이동하기",
+  LOGOUT_TUTORIAL_BUTTON: "정보입력 없이 로그아웃",
+  LOGOUT_TUTORIAL_MODAL_TITLE: "정말로 로그아웃 할까요?",
+  TUTORIAL_SKIP_ERROR: "쇼핑몰 정보를 최소 한 개는 입력해야 계속 진행할 수 있어요.",
+
+  /** *************************************** Validator ********************************************/
+
+  /* register/insertInfo */
+  ONLY_KOR_ENG_NUM_SPECIAL: "한글/영문/숫자/특수문자만 입력할 수 있어요.",
+  ONLY_ENG_NUM_SPECIAL: "영문/숫자/특수문자만 입력할 수 있어요.",
+  ONLY_KOR_ENG: "한글과 영문만 입력할 수 있어요.",
+  ONLY_NUM: "숫자만 입력할 수 있어요.",
+  ONLY_ENG_NUM: "영문과 숫자만 입력할 수 있어요.",
+  ID_REQUIRED: "아이디를 입력하세요.",
+  ID_LENGTH: "아이디는 2글자에서 18글자 사이로 입력하세요.",
+  DUPLICATE_ID: "이미 존재하는 아이디에요.",
+  PASSWORD_LENGTH: "비밀번호는 7글자에서 20글자 사이로 입력하세요.",
+  PASSWORD_NOT_SAME: "비밀번호가 일치하지 않아요.",
+  COMPANY_TYPE_REQUIRED: "사업자유형을 선택하세요.",
+  COMPANY_NUM_REQUIRED: "사업자번호를 입력하세요.",
+  COMPANY_NUM_NOT_VALID: "유효하지 않은 사업자번호에요.",
+  COMPANY_NUM_DUPLICATED: "이미 존재하는 사업자번호에요.",
+  COMPANY_NAME_REQUIRED: "상호명을 입력하세요.",
+  COMPANY_NAME_LENGTH: "상호명은 20자 이내로 입력하세요.",
+  REPRESENTATIVE_NAME_REQUIRED: "대표자명을 입력하세요.",
+  REPRESENTATIVE_NAME_LENGTH: "대표자명은 20자 이내로 입력하세요.",
+  MAIN_BRAND_REQUIRED: "대표 브랜드명을 입력하세요.",
+  MAIN_BRAND_LENGTH: "대표 브랜드명은 2글자에서, 20글자 사이로 입력하세요.",
+  MANAGER_PH_REQUIRED: "휴대폰 번호를 입력하세요.",
+  MANAGER_EMAIL_REQUIRED: "이메일을 입력하세요.",
+  EMAIL_FORMAT_ERROR: "입력한 내용이 이메일 형식에 맞지 않아요.",
+  SUBS_PATH_REQUIRED: "가입경로를 선택하세요.",
+  VALIDATION_ERROR: "입력한 내용을 확인하세요.",
+  NOT_PHONE_NUMBER: "입력한 내용이 휴대폰 번호 형식에 맞지 않아요.",
+  PHONE_AUTH_CODE_REQUIRED: "인증번호를 입력하세요.",
+  PHONE_AUTH_CODE_INVALID: "입력한 인증번호가 맞지 않아요.",
+  PHONE_AUTH_CODE_ALREADY_ISSUED: "인증번호를 이미 전송했어요. 재발송은 2분 후에 시도해 주세요.",
+  PHONE_AUTH_CODE_ALREADY_COMPLETED: "이미 인증을 완료했어요.",
+  PHONE_AUTH_CODE_RETRY: "인증을 다시 진행해 주세요.",
+  PHONE_AUTH_CODE_EXPIRED: "인증번호 유효 시간이 지났어요. 인증을 다시 진행해 주세요.",
+}
